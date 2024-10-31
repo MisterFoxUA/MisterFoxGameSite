@@ -1,0 +1,38 @@
+.header {
+
+    padding-top: 51px;
+    padding-bottom: 81px;
+}
+
+.wrp_headerOption {
+
+    gap: 16px
+}
+
+.headerOptions{
+
+    gap: 43px
+}
+
+.avater {
+
+    background: url("../../../images/avatar.jpg");
+
+    border-radius: 100%;
+    stroke-width: 1px;
+    stroke: #f9f9f9;
+    background-size: contain;
+    /* Масштабування зображення для того, щоб воно повністю помістилося */
+    background-repeat: no-repeat;
+    /* Заборона повторення зображення */
+    background-position: center;
+    /* Вирівнювання по центру */
+
+    width: 32px;
+    height: 32px;
+}
+
+.ctn_avatar{
+
+    gap: 8px;
+}

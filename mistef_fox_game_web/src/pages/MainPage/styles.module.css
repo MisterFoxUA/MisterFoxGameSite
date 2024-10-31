@@ -1,0 +1,33 @@
+.cardGallery {
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+    margin-bottom: 100px;
+}
+
+.ctn_search{
+
+    gap: 8px;
+}
+
+.search{
+
+    margin-top: 22px;
+    margin-bottom: 52px;
+}
+
+.icn_search{
+
+    width: 18px;
+    height: 18px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.inp_search{
+
+    margin-top: 3px;
+}

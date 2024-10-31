@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+
+    --main-font-family: 'Inter';
+    --site-bacground-color: #F8F9FA;
+}
+
+body {
+
+    font-family: var(--main-font-family);
+    font-size: 12px;
+
+    overflow-y: auto;
+    /* Дозволяє прокручування по вертикалі */
+
+    background: url(../images/img19_1920x1200\ 1.svg);
+}
+
+/* Для браузерів WebKit (Chrome, Safari, Opera) */
+body::-webkit-scrollbar {
+    width: 0px;
+    /* Приховує вертикальну смугу прокрутки */
+}
+
+.blur {
+
+    backdrop-filter: blur(100px);
+    box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.56);
+    background: rgba(13, 12, 15, 0.5);
+
+    min-height: 100vh;
+    /* 100% висоти екрану */
+    width: 100%;
+}
+
+.main {
+
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.container {
+
+    margin: 0px auto;
+
+    max-width: 1312px;
+    padding: 0px 20px;
+}
+
+.container-header {
+
+    margin: 0px auto;
+
+    max-width: 1392px;
+    padding: 0px 20px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.d-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex-column-center {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex-space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d-flex-column-space-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.w-fill {
+    width: 100%;
+}
+
+.h-fill {
+    height: 100%;
+}
+
+.no-before::before,
+.no-after::after {
+    display: none !important;
+}
+
+.mt-none {
+    margin-top: 0 !important;
+}
+
+/* Стилі для адаптації */
+@media (min-width: 968px) {
+    .hide-pc {
+        display: none !important;
+    }
+}
+
+@media (max-width: 968px) {
+    .hide-mobile {
+        display: none !important;
+    }
+
+    .show,
+    .show-mobile {
+        display: flex !important;
+    }
+}
+
+/* ------------------------- Font styles ------------------------- */
+
+.text-medBigger {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 157%;
+    letter-spacing: 0.01em;
+}
+
+.text-med {
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 157%;
+    letter-spacing: 0.01em;
+}
+
+.text-st {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+}
+
+.text-title {
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: -0.01em;
+}
+
+.text-color-st {
+    color: #78828a;
+}
+
+.text-color-white {
+    color: white;
+}
+
+/* ------------------------- Button styles ------------------------- */
+
+.btn_base {
+
+    /* --width: 41px; */
+    --height: 25px;
+
+    --btn_border: transparent;
+    --btn_background: transparent;
+
+    --btn_hover_border: transparent;
+    --btn_hover_color: black;
+    --btn_hover_background: transparent;
+
+    --btn_border_radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+
+    cursor: pointer;
+
+    width: var(--width);
+    height: var(--height);
+
+    border: var(--btn_border);
+    background: var(--btn_background);
+
+    border-radius: var(--btn_border_radius);
+
+    transition: 1s;
+}
+
+.btn_base:hover {
+
+    color: var(--btn_hover_color);
+    border: var(--btn_hover_border);
+    background: var(--btn_hover_background);
+}
+
+/* ------------------------- Search styles ------------------------- */
+
+.ctn_search {
+
+    border: 1px solid #29282f;
+    border-radius: 100px;
+    padding: 0px 16px 0px 16px;
+    width: 188px;
+    height: 52px;
+    background: #111012;
+
+    align-items: center;
+}
