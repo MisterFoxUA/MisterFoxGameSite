@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/MisterFoxGameSite/static/css/main.5295e3f4.css",
-    "main.js": "/MisterFoxGameSite/static/js/main.e60644ce.js",
+    "main.css": "/MisterFoxGameSite/static/css/main.2ee01a6e.css",
+    "main.js": "/MisterFoxGameSite/static/js/main.2b784828.js",
     "static/media/avatar.jpg": "/MisterFoxGameSite/static/media/avatar.2063ba33c43a51c72922.jpg",
     "static/media/MisterFox.jpg": "/MisterFoxGameSite/static/media/MisterFox.98ed7797363164bc5d70.jpg",
     "static/media/img19_1920x1200 1.svg": "/MisterFoxGameSite/static/media/img19_1920x1200 1.0fe3b7b5fc9f89558411.svg",
     "index.html": "/MisterFoxGameSite/index.html",
-    "main.5295e3f4.css.map": "/MisterFoxGameSite/static/css/main.5295e3f4.css.map",
-    "main.e60644ce.js.map": "/MisterFoxGameSite/static/js/main.e60644ce.js.map"
+    "main.2ee01a6e.css.map": "/MisterFoxGameSite/static/css/main.2ee01a6e.css.map",
+    "main.2b784828.js.map": "/MisterFoxGameSite/static/js/main.2b784828.js.map"
   },
   "entrypoints": [
-    "static/css/main.5295e3f4.css",
-    "static/js/main.e60644ce.js"
+    "static/css/main.2ee01a6e.css",
+    "static/js/main.2b784828.js"
   ]
 }
