@@ -1,1 +1,7 @@
-export const i = 0;
+export enum Difficulty{
+
+    All = "All",
+    Easy = "Easy",
+    Medium = "Medium",
+    Hard = "Hard"
+}

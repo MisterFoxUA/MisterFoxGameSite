@@ -17,7 +17,7 @@ const useGamesStore = create<GamesState>((set, get) => ({
 
         const NewGames = await fetchSimpleDataArray('https://misterfoxgames-6a1cb-default-rtdb.firebaseio.com/Games.json') as GameItem[];
 
-        set({games: NewGames})
+        set({games: NewGames.slice(0,20)})
     }
 }));
 

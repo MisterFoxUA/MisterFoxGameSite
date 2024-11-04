@@ -2,6 +2,8 @@
 
     padding-top: 51px;
     padding-bottom: 81px;
+
+    align-items: center;
 }
 
 .wrp_headerOption {
@@ -11,12 +13,15 @@
 
 .headerOptions{
 
-    gap: 43px
+    gap: 43px;
+
+    margin-left: auto; /* Відштовхує центральний блок від лівого елемента */
+    margin-right: auto; /* Відштовхує центральний блок від правого елемента */
 }
 
 .avater {
 
-    background: url("../../../images/avatar.jpg");
+    background: url("../../../images/avatar.webp");
 
     border-radius: 100%;
     stroke-width: 1px;

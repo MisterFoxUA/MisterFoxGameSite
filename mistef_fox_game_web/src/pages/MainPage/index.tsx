@@ -4,9 +4,7 @@ import { Footer } from "../../components/Common/Footer"
 import { Header } from "../../components/Common/Header"
 import styles from "./styles.module.css";
 import useGamesStore from "./store";
-import { GameCardItem } from "./components/GameCard";
-import { useNavigate } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { GameCardItem } from "../../components/GameCard";
 
 export const MainPage: React.FC = () => {
 
@@ -21,23 +19,13 @@ export const MainPage: React.FC = () => {
         <>
             <Header />
             <div className="main">
-                <div className="container">
+                <div className={`${styles.PageTitle} container`}>
                     <div className="d-flex">
-                        <p className="text-title text-color-white">Explore</p>
+                        <p className="text-title text-color-white">Explore New Games</p>
                     </div>
                 </div>
                 <div className="container">
-                    <div className={`${styles.search}`}>
-                        <div className={`${styles.ctn_search} ctn_search d-flex`}>
-                            <div className={`${styles.icn_search} d-flex`}>
-                                <SearchIcon />
-                            </div>
-                            <input className={`${styles.inp_search} text-med text-color-white`} type="text" placeholder="Search..." />
-                        </div>
-                    </div>
-                </div>
-                <div className="container">
-                    <div className={`${styles.cardGallery} d-flex`}>
+                    <div className={`${styles.cardGallery}`}>
                         {games.map((item) => {
                             return (
                                 <GameCardItem _GameItem={item} />

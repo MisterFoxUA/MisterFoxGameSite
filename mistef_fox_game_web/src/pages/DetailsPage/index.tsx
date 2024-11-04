@@ -37,6 +37,11 @@ export const DetailsPage: React.FC = () => {
                         </div>
                     </div>
                 </div>
+                <div>
+                    <div>
+
+                    </div>
+                </div>
             </div>
             <Footer />
         </>

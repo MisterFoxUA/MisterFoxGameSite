@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import styles from "./styles.module.css";
-import { GameItem } from "../../../../types";
-import { UnFilledFlagIcon } from "../../../../assets";
 import { useNavigate } from 'react-router-dom';
-import { Pages } from "../../../../const";
+import { UnFilledFlagIcon } from "../../assets";
+import { Pages } from "../../const";
+import { GameItem } from "../../types";
 
 interface IProps {
 
@@ -26,7 +26,7 @@ export const GameCardItem: React.FC<IProps> = ({ _GameItem }) => {
         <>
             <div className={`${styles.card}`}>
                 <div className={`${styles.cardImage}`} onClick={()=>{goToPageWithState(Pages.Details)}}>
-                    <img src={_GameItem._ImageURL} alt="" />
+                    <img src={_GameItem._ImageURL} alt="" loading="lazy"/>
                 </div>
                 <div className={`${styles.ctn_cardTitle} d-flex-space-between`}>
                     <p className={`text-st text-color-white`}>{_GameItem._Name}</p>
