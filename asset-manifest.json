@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/MisterFoxGameSite/static/css/main.f368a918.css",
-    "main.js": "/MisterFoxGameSite/static/js/main.93117bbb.js",
-    "static/media/avatar.webp": "/MisterFoxGameSite/static/media/avatar.12897c4e110c00f17665.webp",
-    "static/media/MisterFox.webp": "/MisterFoxGameSite/static/media/MisterFox.5e4acb588891f2d7f0a7.webp",
-    "static/media/img19_1920x1200 1.webp": "/MisterFoxGameSite/static/media/img19_1920x1200 1.5615d5b6d269ab5c3a52.webp",
-    "index.html": "/MisterFoxGameSite/index.html",
-    "main.f368a918.css.map": "/MisterFoxGameSite/static/css/main.f368a918.css.map",
-    "main.93117bbb.js.map": "/MisterFoxGameSite/static/js/main.93117bbb.js.map"
+    "main.css": "/static/css/main.a878c23d.css",
+    "main.js": "/static/js/main.93117bbb.js",
+    "static/media/avatar.webp": "/static/media/avatar.12897c4e110c00f17665.webp",
+    "static/media/MisterFox.webp": "/static/media/MisterFox.5e4acb588891f2d7f0a7.webp",
+    "static/media/img19_1920x1200 1.webp": "/static/media/img19_1920x1200 1.5615d5b6d269ab5c3a52.webp",
+    "index.html": "/index.html",
+    "main.a878c23d.css.map": "/static/css/main.a878c23d.css.map",
+    "main.93117bbb.js.map": "/static/js/main.93117bbb.js.map"
   },
   "entrypoints": [
-    "static/css/main.f368a918.css",
+    "static/css/main.a878c23d.css",
     "static/js/main.93117bbb.js"
   ]
 }
